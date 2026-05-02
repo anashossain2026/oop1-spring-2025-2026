@@ -62,7 +62,7 @@ class Motorcycle extends Vehicle {
 }
 
 public class Main {
-    public static void main(String[] args) {
+    public static void MainAb(String[] args) {
         System.out.println("--- Instantiating Car ---");
         Vehicle myCar = new Car("Toyota", 500.0, 40.0);
         
