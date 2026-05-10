@@ -1,5 +1,5 @@
 
-package Task;
+package LabTask;
 interface IMemberOperation {
     double discountedFee();
 }
@@ -39,7 +39,7 @@ class PlatinumMember extends Member implements IMemberOperation {
         return this.monthlyFee;
     }
 
-    // Overriding the abstract method
+
     @Override
     void showInfo() {
         System.out.println("Platinum Member ID: " + memberID + " : Monthly Fee: " + monthlyFee + " : Free Sessions: " + freeSessions);

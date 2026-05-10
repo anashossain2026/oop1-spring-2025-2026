@@ -1,4 +1,4 @@
-package Polymorphism;
+//package Polymorphism;
 
 class Vehicle{
     double speed(){
@@ -56,7 +56,7 @@ class Boat extends Vehicle {
     }
 }
 
-public class Main{
+public class Polymorphism{
     public static void Main(String[] args);{
         Vehicle[] vehicles= new Vehicle[3];
 
